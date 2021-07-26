@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/markdownpreviewer-fcc/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/markdownpreviewer-fcc/static/js/main.082c6a83.chunk.js",
-    "main.js.map": "/markdownpreviewer-fcc/static/js/main.082c6a83.chunk.js.map",
-    "runtime-main.js": "/markdownpreviewer-fcc/static/js/runtime-main.d8977033.js",
-    "runtime-main.js.map": "/markdownpreviewer-fcc/static/js/runtime-main.d8977033.js.map",
-    "static/js/2.0684ec93.chunk.js": "/markdownpreviewer-fcc/static/js/2.0684ec93.chunk.js",
-    "static/js/2.0684ec93.chunk.js.map": "/markdownpreviewer-fcc/static/js/2.0684ec93.chunk.js.map",
-    "static/js/3.1c865043.chunk.js": "/markdownpreviewer-fcc/static/js/3.1c865043.chunk.js",
-    "static/js/3.1c865043.chunk.js.map": "/markdownpreviewer-fcc/static/js/3.1c865043.chunk.js.map",
+    "main.css": "/markdownpreviewer-fcc/static/css/main.3b8acddf.chunk.css",
+    "main.js": "/markdownpreviewer-fcc/static/js/main.492f5ebb.chunk.js",
+    "main.js.map": "/markdownpreviewer-fcc/static/js/main.492f5ebb.chunk.js.map",
+    "runtime-main.js": "/markdownpreviewer-fcc/static/js/runtime-main.cb377c3e.js",
+    "runtime-main.js.map": "/markdownpreviewer-fcc/static/js/runtime-main.cb377c3e.js.map",
+    "static/js/2.c9942abc.chunk.js": "/markdownpreviewer-fcc/static/js/2.c9942abc.chunk.js",
+    "static/js/2.c9942abc.chunk.js.map": "/markdownpreviewer-fcc/static/js/2.c9942abc.chunk.js.map",
+    "static/js/3.dcee6849.chunk.js": "/markdownpreviewer-fcc/static/js/3.dcee6849.chunk.js",
+    "static/js/3.dcee6849.chunk.js.map": "/markdownpreviewer-fcc/static/js/3.dcee6849.chunk.js.map",
     "index.html": "/markdownpreviewer-fcc/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/markdownpreviewer-fcc/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.0684ec93.chunk.js.LICENSE.txt": "/markdownpreviewer-fcc/static/js/2.0684ec93.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/markdownpreviewer-fcc/static/media/logo.6ce24c58.svg"
+    "static/css/main.3b8acddf.chunk.css.map": "/markdownpreviewer-fcc/static/css/main.3b8acddf.chunk.css.map",
+    "static/js/2.c9942abc.chunk.js.LICENSE.txt": "/markdownpreviewer-fcc/static/js/2.c9942abc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.d8977033.js",
-    "static/js/2.0684ec93.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.082c6a83.chunk.js"
+    "static/js/runtime-main.cb377c3e.js",
+    "static/js/2.c9942abc.chunk.js",
+    "static/css/main.3b8acddf.chunk.css",
+    "static/js/main.492f5ebb.chunk.js"
   ]
 }
