@@ -4,39 +4,50 @@ import marked from "marked";
 
 import React, { Component } from "react";
 
-const exemple =`
-This is a paragraph
+const exemple = `
 
-**This is bolded text**
+**these are tags to test the Markdown**
 
-> Block Quotes!
-
-# Heading
-## Heading 2
-
-- list item 1
-- list item 2
-- list item 3
+# Hey My Name Is 
+# Ihsen Ben Ali
+## I'm a Junior fullstack web-dev 
+## looking for a job or an apprenticeship 
 
 
-[Visit my website](https://www.ihsen.dev)
 
-This is a inline \`<div></div>\`
+
+
+> I like Coding!
+
+
+I code with
+- Javascript
+- SQL
+- NodeJS
+- C#
+
+
+[Visit my Portfolio website](https://www.ihsen.dev)
+
+
+
+
 This is a block of code:
 
+\`\`\`c#
+for (int Days = 0;Days = 7;Days++){
+  Console.WriteLine("Code Everyday");
+}
 \`\`\`
-  let x = 1;
-  let y = 2;
-  let z = x + y;
-\`\`\`
+
+
+I also code with \`<h1 className="YaY">React</h1>\`
 
 ![React](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K)
 `;
 export default class App extends Component {
-
-  
   state = {
-    inputText: exemple
+    inputText: exemple,
   };
   handleChange = (e) => {
     this.setState({
@@ -50,7 +61,13 @@ export default class App extends Component {
     const markdown = marked(inputText, { breaks: true });
 
     return (
-      <div className="container">
+      <div className="container window">
+        <div className="topBar">
+          <a className="close"></a>
+          <a className="hide"></a>
+          <a className="fullScreen"></a>
+        </div>
+
         <div className="inputPreview">
           <textarea
             id="editor"
@@ -58,12 +75,9 @@ export default class App extends Component {
             onChange={this.handleChange}
           />
         </div>
-        <div>
-          <div
-            id="preview"
-            className="outputPreview"
-            dangerouslySetInnerHTML={{ __html: markdown }}
-          />
+
+        <div className="outputPreview">
+          <div id="preview" dangerouslySetInnerHTML={{ __html: markdown }} />
         </div>
       </div>
     );

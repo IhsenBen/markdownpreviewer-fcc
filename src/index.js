@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <div  id="Title"><h1>Markdown Previewer Project Made With React</h1></div>
+    <App className="oops" />
   </React.StrictMode>,
   document.getElementById('root')
 );
