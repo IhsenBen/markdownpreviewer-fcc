@@ -10,7 +10,7 @@ const exemple = `
 
 # Hey My Name Is 
 # Ihsen Ben Ali
-## I'm a Junior fullstack web-dev 
+## I'm a Junior full-stack web-dev 
 ## looking for a job or an apprenticeship 
 
 
@@ -61,14 +61,14 @@ export default class App extends Component {
     const markdown = marked(inputText, { breaks: true });
 
     return (
-      <div className="container window">
+      <div className="window">
         <div className="topBar">
           <a className="close"></a>
           <a className="hide"></a>
           <a className="fullScreen"></a>
         </div>
 
-        <div className="inputPreview">
+        <div className="input">
           <textarea
             id="editor"
             value={inputText}
@@ -76,7 +76,7 @@ export default class App extends Component {
           />
         </div>
 
-        <div className="outputPreview">
+        <div className="output">
           <div id="preview" dangerouslySetInnerHTML={{ __html: markdown }} />
         </div>
       </div>
