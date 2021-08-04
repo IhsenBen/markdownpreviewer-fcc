@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/markdownpreviewer-fcc/static/css/main.6f1f5a80.chunk.css",
-    "main.js": "/markdownpreviewer-fcc/static/js/main.bd7def1d.chunk.js",
-    "main.js.map": "/markdownpreviewer-fcc/static/js/main.bd7def1d.chunk.js.map",
+    "main.css": "/markdownpreviewer-fcc/static/css/main.8ae47055.chunk.css",
+    "main.js": "/markdownpreviewer-fcc/static/js/main.640bf8d1.chunk.js",
+    "main.js.map": "/markdownpreviewer-fcc/static/js/main.640bf8d1.chunk.js.map",
     "runtime-main.js": "/markdownpreviewer-fcc/static/js/runtime-main.cb377c3e.js",
     "runtime-main.js.map": "/markdownpreviewer-fcc/static/js/runtime-main.cb377c3e.js.map",
     "static/js/2.c9942abc.chunk.js": "/markdownpreviewer-fcc/static/js/2.c9942abc.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.dcee6849.chunk.js": "/markdownpreviewer-fcc/static/js/3.dcee6849.chunk.js",
     "static/js/3.dcee6849.chunk.js.map": "/markdownpreviewer-fcc/static/js/3.dcee6849.chunk.js.map",
     "index.html": "/markdownpreviewer-fcc/index.html",
-    "static/css/main.6f1f5a80.chunk.css.map": "/markdownpreviewer-fcc/static/css/main.6f1f5a80.chunk.css.map",
+    "static/css/main.8ae47055.chunk.css.map": "/markdownpreviewer-fcc/static/css/main.8ae47055.chunk.css.map",
     "static/js/2.c9942abc.chunk.js.LICENSE.txt": "/markdownpreviewer-fcc/static/js/2.c9942abc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cb377c3e.js",
     "static/js/2.c9942abc.chunk.js",
-    "static/css/main.6f1f5a80.chunk.css",
-    "static/js/main.bd7def1d.chunk.js"
+    "static/css/main.8ae47055.chunk.css",
+    "static/js/main.640bf8d1.chunk.js"
   ]
 }
